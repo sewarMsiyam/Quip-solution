@@ -2,9 +2,11 @@
     font-family: 'Inter';
     src: url('font/Inter-Regular.ttf') format('truetype');
 }
-*{
- font-family: 'Inter', FontAwesome, sans-serif;
+
+* {
+    font-family: 'Inter', FontAwesome, sans-serif;
 }
+
 body,
 html {
     height: 100%;
@@ -12,6 +14,7 @@ html {
     font-family: 'Inter', FontAwesome, sans-serif;
     background-color: var(--bg-offwhite);
 }
+
 a {
     text-decoration: none;
 }
@@ -32,11 +35,6 @@ header .navbar .navbar-nav .nav-item .nav-link {
     box-shadow: none;
 }
 
-.navbar-nav .nav-link.active,
-.navbar-nav .show>.nav-link {
-    font-weight: 700;
-}
-
 .nav-icon-s {
     width: 40px;
     height: 40px;
@@ -51,11 +49,16 @@ header .navbar .navbar-nav .nav-item .nav-link {
 .nav-icon-s i {
     font-size: 16px;
 }
-header .navbar .navbar-collapse.show{
+
+header .navbar .navbar-collapse.show {
     background-color: #1a2b49;
     border-radius: 16px;
 }
 
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    font-weight: 700;
+}
 
 /****/
 .text-header-o {
@@ -101,16 +104,20 @@ header .navbar .navbar-collapse.show{
         width: 36%;
         right: 10%;
     }
+
     .section-header-o .text-header-o h1 {
         font-size: 56px;
     }
+
     .section-header-o .text-header-o p {
         font-size: 26px;
     }
+
     .section-header-o .text-header-o button {
         font-size: 26px;
     }
 }
+
 @media (min-width: 1660px) {
     .text-header-o {
         width: 30%;
@@ -146,6 +153,7 @@ header .navbar .navbar-collapse.show{
         font-size: 40px;
         margin-bottom: 24px;
     }
+
     .title-text p {
         font-size: 24px;
     }
@@ -194,6 +202,7 @@ header .navbar .navbar-collapse.show{
     color: #1A2B49;
 
 }
+
 .proj-color-1a2b491a {
     background: #1a2b491a;
 }
@@ -224,9 +233,11 @@ header .navbar .navbar-collapse.show{
         margin-top: 120px;
         margin-right: 33px;
     }
+
     .projects-text h3 {
         font-size: 28px;
     }
+
     .projects-text p {
         font-size: 24px;
     }
@@ -241,11 +252,13 @@ header .navbar .navbar-collapse.show{
     background: #F2F4F8;
     margin: 0 auto 100px auto;
 }
+
 .selling-text .img-Machine {
     margin-top: -90px;
     margin-bottom: 10px;
     height: 220px;
 }
+
 .selling-text h3 {
     font-weight: 600;
     font-size: 20px;
@@ -271,21 +284,23 @@ header .navbar .navbar-collapse.show{
     align-items: flex-end;
     margin-bottom: 5px;
 }
-.selling-text .c1{
+
+.selling-text .c1 {
     position: absolute;
     transform: rotate(175deg);
     right: -13px;
     bottom: 63px;
 
 }
-.selling-text .c2{
+
+.selling-text .c2 {
     position: absolute;
     transform: rotate(270deg);
     right: 139px;
     bottom: -46px;
 }
 
-.selling-text .c3{
+.selling-text .c3 {
     position: absolute;
     transform: rotate(354deg);
     left: -16px;
@@ -296,38 +311,40 @@ header .navbar .navbar-collapse.show{
 
 
 @media (min-width: 992px) {
-.selling-text {
-    width: 330px;
-    height: 330px;
-    margin: 0 auto 100px auto;
-}
-.selling-text .img-Machine {
-    margin-top: -110px;
-    height: 325px;
-}
+    .selling-text {
+        width: 330px;
+        height: 330px;
+        margin: 0 auto 100px auto;
+    }
 
-.selling-text h3 {
-    font-size: 26px;
-    line-height: 39px;
-}
+    .selling-text .img-Machine {
+        margin-top: -110px;
+        height: 325px;
+    }
 
-.selling-text div {
-    font-size: 24px;
-}
+    .selling-text h3 {
+        font-size: 26px;
+        line-height: 39px;
+    }
 
-    .selling-text .c1{
+    .selling-text div {
+        font-size: 24px;
+    }
+
+    .selling-text .c1 {
         transform: rotate(201deg);
         right: 4px;
         bottom: 29px;
 
     }
-    .selling-text .c2{
+
+    .selling-text .c2 {
         transform: rotate(277deg);
         right: 204px;
         bottom: -45px;
     }
 
-    .selling-text .c3{
+    .selling-text .c3 {
         transform: rotate(348deg);
         left: -17px;
         top: 126px;
@@ -359,6 +376,7 @@ footer h3 {
     margin-top: 50px;
 
 }
+
 footer .Gettouch p a {
     font-weight: 400;
     font-size: 17px;
@@ -376,6 +394,7 @@ footer .Gettouch p a {
     line-height: 20px;
     color: #FFFFFF;
 }
+
 .form-conc .form-control {
     font-style: normal;
     font-weight: 500;
@@ -385,21 +404,24 @@ footer .Gettouch p a {
     margin-bottom: 32px;
     height: 48px;
 }
+
 .form-conc textarea.form-control {
 
     height: 258.73px;
 
 }
- form:focus-within label, form:focus-within input {
-  color: #EE5A4B !important;
+
+form:focus-within label,
+form:focus-within input {
+    color: #EE5A4B !important;
 }
 
-.form-control:focus  {
+.form-control:focus {
     color: #212529 !important;
     background-color: #fff;
     border-color: #EE5A4B;
     outline: 1px solid #EE5A4B;
-    box-shadow:none;
+    box-shadow: none;
 }
 
 .form-conc button {
@@ -408,11 +430,12 @@ footer .Gettouch p a {
     background: #EE5A4B;
     box-shadow: 0px 8px 16px rgba(35, 35, 35, 0.9);
     border-radius: 50px;
-    border:none;
+    border: none;
     font-weight: 600;
     font-size: 22px;
     line-height: 29px;
 }
+
 .form-conc button:hover {
     background: #EE5A4B;
 }
@@ -425,7 +448,7 @@ footer .copyright {
 }
 
 @media (min-width: 992px) {
-        
+
     footer h3 {
         font-size: 32px;
         line-height: 48px;
@@ -442,30 +465,33 @@ footer .copyright {
     }
 
 
-    
-.form-conc .form-label {
-    font-size: 24px;
-    line-height: 29px;
-}
-.form-conc .form-control {
-    font-size: 24px;
-    line-height: 29px;
-    margin-bottom: 32px;
-    height: 65px;
-}
-.form-conc textarea.form-control {
-    height: 258.73px;
 
-}
-.form-conc button {
-    width: 196px;
-    height: 56px;
-    background: #EE5A4B;
-    box-shadow: 0px 8px 16px rgba(35, 35, 35, 0.9);
-    border-radius: 50px;
-    border:none;
-    font-weight: 600;
-font-size: 26px;
-line-height: 31px;
-}
+    .form-conc .form-label {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .form-conc .form-control {
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 32px;
+        height: 65px;
+    }
+
+    .form-conc textarea.form-control {
+        height: 258.73px;
+
+    }
+
+    .form-conc button {
+        width: 196px;
+        height: 56px;
+        background: #EE5A4B;
+        box-shadow: 0px 8px 16px rgba(35, 35, 35, 0.9);
+        border-radius: 50px;
+        border: none;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 31px;
+    }
 }
