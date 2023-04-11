@@ -8,15 +8,16 @@
     <title>quip</title>
     <link rel="shortcut icon" href="assets/images/logo/logo.png">
     <link rel="stylesheet" href="assets/lib/font-awesome/css/all.css">
+    <link rel="stylesheet" href="assets/lib/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/lib/animate/aos.css">
     <!---En--->
     <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
     <!-- Ar --->
-    <!-- <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.rtl.min.css"> -->
+    <!-- <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.rtl.min.css">  -->
     <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="assets/css/header-lite.css">
-    <!-- <link rel="stylesheet" href="assets/css/indexAr.css"> -->
-
+    <!-- <link rel="stylesheet" href="assets/css/indexAr.css">  -->
 </head>
+
 
 <body>
     <header>
@@ -36,7 +37,7 @@
                             <a class="nav-link " href="index.html"> Home </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"> Why ACW </a>
+                            <a class="nav-link" href="ACW.html"> Why ACW </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
@@ -44,16 +45,16 @@
                                 Products
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="Products.html">Action</a></li>
+                                <li><a class="dropdown-item" href="Products.html">Another action</a></li>
+                                <li><a class="dropdown-item" href="Products.html">Something else here</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="Maintenance.html">Maintenance</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact us</a>
+                            <a class="nav-link" href="concatus.html">Contact us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav-icon-s" href="#"><i
@@ -79,13 +80,13 @@
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <h2 class="title-page text-center">Ask for <span class="maintenance"> maintenance </span> </h2>
-                
+
                 <form class="col-11 col-md-10 col-lg-8 col-xl-6 from-maintenance col-5 justify-content-center">
-                    <div class="mb-4">
+                    <div class="control-group mb-4">
                         <label for="Inputemail" class="form-label">Your email</label>
                         <input type="email" class="form-control" id="Inputemail" placeholder="EX: 123@gmail.com ">
                     </div>
-                    <div class="mb-4">
+                    <div class="control-group mb-4">
                         <label for="Inputphone" class="form-label">Your phone number</label>
                         <div class="input-group">
                             <input type="text" class="form-control" id="Inputphone" placeholder="EX: 958931574852">
@@ -93,17 +94,20 @@
                             <button class=" form-dropdown dropdown-toggle" type="button" data-bs-toggle="dropdown"
                                 aria-expanded="false"><img src="assets/images/Saudi_Arabia.png" width="50"> </button>
                             <ul class="dropdown-menu dropdown-menu-end text-center">
-                                <li><a class="dropdown-item" href="#"><img src="assets/images/Saudi_Arabia.png" width="50"></a></li>
-                                <li><a class="dropdown-item" href="#"><img src="assets/images/Saudi_Arabia.png" width="50"></a></li>
-                                <li><a class="dropdown-item" href="#"><img src="assets/images/Saudi_Arabia.png" width="50"></a></li>
+                                <li><a class="dropdown-item" href="#"><img src="assets/images/Saudi_Arabia.png"
+                                            width="50"></a></li>
+                                <li><a class="dropdown-item" href="#"><img src="assets/images/Saudi_Arabia.png"
+                                            width="50"></a></li>
+                                <li><a class="dropdown-item" href="#"><img src="assets/images/Saudi_Arabia.png"
+                                            width="50"></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="mb-4">
+                    <div class="control-group mb-4">
                         <label for="Inputmachine" class="form-label">Your machine type</label>
                         <input type="text" class="form-control" id="Inputmachine" placeholder="EX: NET machine">
                     </div>
-                    <div class="mb-4 ">
+                    <div class="control-group mb-4 ">
                         <label for="exampleFormControlTextarea1" class="form-label">The problem description</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
                             placeholder="Explain tour problem here...."></textarea>
@@ -116,7 +120,7 @@
         </div>
     </section>
 
-      <div class="whats">
+    <div class="whats">
         <a href="#"><img src="assets/images/whats.png" class="img-fluid"></a>
     </div>
 
@@ -134,14 +138,16 @@
                         <p><a href="tel:+956125476258">Phone number: +956125476258</a></p>
                         <p>
                             <a href="#">Location: The company location
-                                <svg width="28" height="20" viewBox="0 0 28 20" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M14.9231 1.65722L26 9.65185L14.9231 17.6465M24.4615 9.65185L2 9.65185Z"
-                                        fill="#EE5A4B" />
-                                    <path d="M14.9231 1.65722L26 9.65185L14.9231 17.6465M24.4615 9.65185L2 9.65185"
-                                        stroke="white" stroke-width="3" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
+                                <span class="fa-rotate-180">
+                                    <svg width="28" height="20" viewBox="0 0 28 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.9231 1.65722L26 9.65185L14.9231 17.6465M24.4615 9.65185L2 9.65185Z"
+                                            fill="#EE5A4B" />
+                                        <path d="M14.9231 1.65722L26 9.65185L14.9231 17.6465M24.4615 9.65185L2 9.65185"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </span>
                             </a>
                         </p>
                 </div>
@@ -175,7 +181,9 @@
     </footer>
 
     <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <script src="assets/lib/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/lib/animate/aso.js"></script>
+    <script src="assets/js/animet.js"></script>
 </body>
 
 </html>
