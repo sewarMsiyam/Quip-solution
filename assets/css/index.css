@@ -72,6 +72,27 @@ header .navbar-dark .navbar-collapse.show {
     color: #fff;
 }
 
+
+.sub-menu {
+        display: block;
+        position: static;
+        background-color: transparent;
+        box-shadow: none;
+        z-index: auto;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    .sub-menu li {
+        display: block;
+    }
+
+    .dropdown-item .fa-chevron-right {font-size: 12px;}
+    
+
+
 /****/
 .text-header-o {
     margin: 0 12px;
@@ -135,6 +156,24 @@ header .navbar-dark .navbar-collapse.show {
     .text-header-o {
         width: 30%;
         right: 10%;
+    }
+
+    
+    .sub-menu {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        transition: all 0.3s ease-in-out;
+       
+    }
+
+    ul li:hover > .sub-menu {
+        display: block;
+        transition: all 0.3s ease-in-out;
     }
 }
 
