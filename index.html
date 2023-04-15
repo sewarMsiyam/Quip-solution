@@ -40,41 +40,37 @@
                             <a class="nav-link" href="ACW.html"> Why ACW </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 Products
                             </a>
                             <ul class="dropdown-menu">
-                                <li class="menuSubDown">
-                                    <a class="dropdown-item">Action <i class="fa-solid fa-chevron-right "></i></a>
-                                    <ul class="sub-menu dropdown-menu ">
-                                        <li><a class="dropdown-item" href="#">item 1</a></li>
-                                        <li><a class="dropdown-item" href="#">item 2 </a></li>
-                                        <li><a class="dropdown-item" href="#">item 3</a></li>
-                                        <li><a class="dropdown-item" href="#">item 2 </a></li>
-                                        <li><a class="dropdown-item" href="#">item 3</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle text-darck" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
                                     </ul>
                                 </li>
-                                <li class="menuSubDown">
-                                    <a class="dropdown-item">Another Action <i class="fa-solid fa-chevron-right "></i></a>
-                                    <ul class="sub-menu dropdown-menu ">
-                                        <li><a class="dropdown-item" href="#">item 1</a></li>
-                                        <li><a class="dropdown-item" href="#">item 2 </a></li>
-                                        <li><a class="dropdown-item" href="#">item 3</a></li>
-                                        <li><a class="dropdown-item" href="#">item 2 </a></li>
-                                        <li><a class="dropdown-item" href="#">item 3</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menuSubDown">
-                                    <a class="dropdown-item">Something else here <i class="fa-solid fa-chevron-right "></i></a>
-                                    <ul class="sub-menu dropdown-menu ">
-                                        <li><a class="dropdown-item" href="#">item 1</a></li>
-                                        <li><a class="dropdown-item" href="#">item 2 </a></li>
-                                        <li><a class="dropdown-item" href="#">item 3</a></li>
-                                        <li><a class="dropdown-item" href="#">item 2 </a></li>
-                                        <li><a class="dropdown-item" href="#">item 3</a></li>
+                                <li class="nav-item dropend">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
                                     </ul>
                                 </li>
                             </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Link</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Maintenance.html">Maintenance</a>
@@ -393,17 +389,6 @@
                 }
             }
         });
-
-        var menuSubDown = document.getElementsByClassName("menuSubDown");
-        for (let i = 0; i < menuSubDown.length; i++) {
-            menuSubDown[i].addEventListener("click", function () {
-                var submenu = document.getElementsByClassName("sub-menu");
-                for (let j = 0; j < submenu.length; j++) {
-                    submenu[i].classList.toggle("sewar")
-                }
-
-            });
-        }
 
     </script>
 </body>
